@@ -1,0 +1,26 @@
+
+div#kutukapsa{
+    
+    width: 936px;
+    height: 476px;
+    margin: 2px;
+    border: 100px saddlebrown;
+    display: flex;
+    direction: row; 
+   
+    /*bi türlü çalıştıramadım kutukapsayı:( 
+    /*flex-direction: row-reverse;
+    flex-direction: column;
+    flex-direction: column-reverse;
+    flex-direction: row; */
+}
+
+div.kutu {
+    width: 36px;
+    height: 36px;
+    margin: left 5px;
+    background-color: aqua;
+    color: rgb(27, 8, 8);
+    text-align: center;
+
+}

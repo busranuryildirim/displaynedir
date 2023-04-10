@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+    <link rel="stylesheet" type="text/css"   href="style.css">
+</head>
+<body>
+    <!--
+        csste displayin ne olduğu hakkındaki araştırmalarımı içeriyor
+    -->
+    <h1> css display nedir?</h1>
+    <p>Display özelliği bir HTML elemanı için kullanılan <br>
+    kutu türünü belirtir. Web sayfamızda elemanların ne tür <br>
+    konumlandırılacağa ve sayfamızda görünüp , görünmeyeceğini belirler.
+    </p>
+    <p>Her hangi bir işlem yapmadan oluşturduğumuz etiketlerin <br>
+    nasıl davranacağını önceden bilmemiz gerekiyor ki gerektiği <br>
+    zaman inline ve block etiketlerin özelliklerini değiştirebilelim. <br>
+    Yani bir etiket inline ancak css display ile bir block etikete ya da <br>
+    tam tersi olarak block bir etiketi de inline etikete çevirebiliriz.</p>
+<div>
+    <P>display:inline;inline etiketi bir block etiketini inline etikete çevirebilir.</P>
+    <p display="inline1"> büşra</p> 
+    <p display="inline2">nur</p>
+    <p display="inline3">yıldırım</p>
+    <P>display:none; denildiğinde bir öğe tüm içeriği ile gizlenip yok sayılacaktır.</P>
+    <P>display:block; inline etiketi alıp block etikete çevirir. </P>
+    <p>Biz inline etiketlere genişlik ve yükseklik değerleri atayamıyoruz bu sorunu ortadan kaldırmak <br>
+        içinde display: block etiketini kullanır sonra istediğimiz genişlik ve yüksekliği verebiliriz. <br>
+    </p>
+    <p>display: inline-block; etiketin hem inline (yani bulunduğu kadar yer kaplayan) hem de block <br>
+    (yani istediğimiz genişlik ve yüksekliği vermemizi sağlayan) özelliklerini bir arada kullanabilmemizi sağlar. <br>
+</p>
+<div> 
+    <h2>şimdi flex özelliklerini açıklayıp birkaç örnek gösterelim.</h2>
+       <p>display: flex esnetilebilen kutu demek</p>
+       <p>direction dediğimizde kutuların nasıl sıralanmasını istediğimizi belirtiyoruz.Ben row seçtim
+        flex-direction diyerek farklı alternatifleri de deneyebilirsiniz.
+       </p>
+       <p>flex wrap dediğimizde sığmayan kutuları bi alt satıra geçiriyoruz.</p>
+        
+        <h3>justify content</h3>
+
+        <p>justify content:flex-start diyince başlangıca yaslayarak kutuları diziyor,flex-end deseydik sona yaslayarak dizilirdi.
+         flex direction pozisyonuna göre başlangıç ve bitiş değişir, yani row derseniz sağa sola göre dizilim yapar, column derseniz yukarı aşağı olarak dizilim yapılır.
+        justify content: center dersek merkeze göre dizilim yapar.
+        margin değerleri vermeden de justify content: space around diyerek kutuları hizalı bir şekilde dizebiliriz.Başlangıç ve bitiş kutularının yanında boşluk olur.
+        Eğer en başta ve en sonda boşluk olmasın ama yine margin değeriyle uğraşmak istemiyorum derseniz de sizin için bir kod bulunuyor: o da justify content: space-between 
+
+</p>
+
+    
+
+</div>
+    </div>
+
+    
+   
+   
+    </body>
+
+</html>
